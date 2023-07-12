@@ -1,4 +1,3 @@
-#include <unistd.h>
 
 void ft_putstr(char *str) {
     int i = 0;
@@ -8,6 +7,7 @@ void ft_putstr(char *str) {
     }
 }
 
+#include <unistd.h>
 int main() {
     char *message = "Hola, mundo!";
     ft_putstr(message);

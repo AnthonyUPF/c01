@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 int ft_strlen(char *str) {
     int count = 0;
@@ -11,6 +10,7 @@ int ft_strlen(char *str) {
     return count;
 }
 
+#include <stdio.h>
 int main() {
     char *string = "Hola, mundo!";
     int length = ft_strlen(string);

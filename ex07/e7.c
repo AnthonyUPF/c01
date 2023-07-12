@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 void ft_rev_int_tab(int *tab, int size) {
     int temp;
@@ -15,6 +14,7 @@ void ft_rev_int_tab(int *tab, int size) {
     }
 }
 
+#include <stdio.h>
 int main() {
     int array[] = {1, 2, 3, 4, 5};
     int size = sizeof(array) / sizeof(int);

@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 void ft_sort_int_tab(int *tab, int size) {
     int i = 0;
@@ -18,6 +17,7 @@ void ft_sort_int_tab(int *tab, int size) {
     }
 }
 
+#include <stdio.h>
 int main() {
     int array[] = {5, 2, 8, 1, 3};
     int size = sizeof(array) / sizeof(array[0]);

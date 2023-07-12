@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 void ft_ultimate_div_mod(int *a, int *b) {
     int temp = *a;
@@ -6,6 +5,7 @@ void ft_ultimate_div_mod(int *a, int *b) {
     *b = temp % *b;
 }
 
+#include <stdio.h>
 int main() {
     int a = 10;
     int b = 3;

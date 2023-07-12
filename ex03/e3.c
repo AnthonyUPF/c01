@@ -1,10 +1,10 @@
-#include <stdio.h>
 
 void ft_div_mod(int a, int b, int *div, int *mod) {
     *div = a / b;
     *mod = a % b;
 }
 
+#include <stdio.h>
 int main() {
     int a = 13;
     int b = 5;
